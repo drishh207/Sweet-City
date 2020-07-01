@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Basic -->
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sweet City</title>
+
+    <!--including bootstrap and css files-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <!--including fonts from google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@1&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+	<header class="header">
+		<nav id="header-nav" class="navbar navbar-default navbar-dark navbar-expand-none">
+			<div class="container-fluid">
+				<div id="main-nenu" class="fixed-top ">
+					<div class="navbar-brand" class="float-left d-md-block d-lg-block d-none ">
+						<a href="index.html"><div id="logo-img"></div></a>
+					</div>
+
+					<div id="mySidenav" class="sidenav">
+  						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  						<a href="#banner" onclick="closeNav()">Home</a>
+  						<a href="#about" onclick="closeNav()">About Us</a>
+  						<a href="#specials" onclick="closeNav()">Specials</a>
+  						<a href="#menu" onclick="closeNav()">Our Menu</a>
+  						<a href="#team" onclick="closeNav()">Our Team</a>
+  						<a href="#gallery" onclick="closeNav()">Gallery</a>
+                        <a href="#reservation" onclick="closeNav()">Reservation</a>
+                        <a href="#foot" onclick="closeNav()">Contact us</a>
+					</div>
+
+					<span id="button" onclick="openNav()">&#9776;</span>
+
+					<!-- <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              			<span class="navbar-toggler-icon"></span>
+            		</button>
+		        	<div id="collapsable-nav" class="collapse navbar-collapse">
+           				<ul id="nav-list" class="nav navbar-nav ml-auto text-center">
+			            	<li class="active"><a href="#banner">Home</a></li>
+                        	<li><a href="#about">About us</a></li>
+                        	<li><a href= "#specials">Specials</a></li>
+                        	<li><a href="#menu">Menu</a></li>
+                        	<li><a href="#team">Team</a></li>
+                        	<li><a href="#gallery">Gallery</a></li>
+                        	<li><a href="#reservation">Reservation</a></li>
+                        	<li><a href="#footer">Contact us</a></li>
+		          		</ul>
+		          		#nav-list -->
+        			<!-- </div> -->
+        			<!-- .collapse .navbar-collapse -->
+				</div>
+				<!--main-menu end-->
+			</div> 
+			<!--.container-fluid-->
+		</nav>
+		<!--navbar-header-->
+	</header>
+	<!--header end-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<div id="banner" class="banner full-screen-mode parallax">
+		<div class = "container-fluid">
+			<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div id="banner-text-animated">
+					<h1 class="ml10">
+  						<span class="text-wrapper">
+    						<span class="letters">We Serve The Desserts You Deserve</span>
+  						</span>
+					</h1>
+					<h2>Count memories, Not calories</h2>
+					<h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod</h4>
+					<div class="book-btn">
+                        <a href="#reservation" class="table-btn hvr-underline-from-center">Book my Table</a>
+                    </div>
+                    <!--book button-->
+				</div>
+				<!--banner-text-animation and its contents over-->
+			</div>
+			<!--responsive class end-->
+		</div>
+		<!--container-fluid end-->
+	</div>
+	<!--banner end-->
+
+	<!--About us-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<div id="about" class="full-screen-mode active">
+		<div class="container-fluid">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h2 class="block-title"> About Us </h2>
+				<div id ="about-content" class="animation-element slide-left">
+					<h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
+                	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut minim venia, nostrud exercitation ullamco. </p>
+
+                	<p> Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes, nascetur ridiculquam felisorat, ultricies nec, Aenean commodo ligula eget dolor penatibu set magnis is parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, pellentesque eu, pretium quis, sem. quat massa quis enim. Donec vitae sapien ut libero venenatis fauci Nullam quis ante. Etiam sit amet rci eget eros. </p>
+
+                	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
+
+                	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+                <!--about-content end-->\
+                <div id="testing"></div>
+			</div>
+			<!--responsive column end-->
+		</div>	
+		<!--container fluid end-->	
+	</div>
+	<!--about us end-->
+
+	<!--specials menu start-->
+	<div id="specials" class= "full-screen-mode parallax">
+		<div class="container-fluid">
+			<div id ="info" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+				<h3>Today's Specials</h3>
+				<h6> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia,nostrud exercitation ullamco.</h6>
+			</div>
+
+			<div class="row"> 
+				<div class="hvrbox col-lg-4 col-md-6 col-xs-6">
+					<img src="images/specials5.jpg" alt="Rose Sandesh" class="hvrbox-layer_bottom img-fluid">
+					<div class="hvrbox-layer_top">
+						<div class="hvrbox-text">
+						<h4>Rose Sandesh</h4>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
+					</div>
+				</div>
+				<!--hvrbox end-->
+				<div class="hvrbox col-lg-4 col-md-6 col-xs-6">
+					<img src="images/specials2.jpg" alt="Moong Dal Halwa" class="hvrbox-layer_bottom img-fluid">
+					<div class="hvrbox-layer_top">
+						<div class="hvrbox-text">
+						<h4>Moong Dal Halwa</h4>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
+					</div>
+				</div>
+				<!--hvrbox end-->
+				<div id="image3" class="hvrbox col-lg-4 col-md-6 col-xs-12">
+					<img src="images/specials3.jpg" alt="Chocolate Tiramisu" class="hvrbox-layer_bottom img-fluid">
+					<div class="hvrbox-layer_top">
+						<div class="hvrbox-text">
+						<h4>Chocolate Tiramisu</h4>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
+					</div>
+				</div>
+				<!--hvrbox end-->
+			</div>	
+			<!--row end-->
+			<div id="testing2"></div>
+		</div>
+		<!--container-fluid end-->
+	</div>
+<!--#specials end-->
+
+
+
+	<div id="menu" class="full-screen-mode parallax">
+		<div class="container-fluid">
+			 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+			 	<div class="title-content">
+			 		<h3>Our Menu</h3>
+			 		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+			 	</div>			 	
+			 </div>
+			 <!--col end-->
+
+			 <div class="tab-menu">
+                <div class="menu-bar slider slider-nav row">
+                    <div class="tab-title-menu col-lg-3 col-md-3 col-xs-3 col-sm-3">
+                        <ul id="btn1" class="" onclick="get_items_1();">INDIAN SWEETS<br /><hr /><img  src="images/indian.jpg"></ul>
+                    </div>
+
+                    <div class="tab-title-menu col-lg-3 col-md-3 col-xs-3 col-sm-3">
+                        <ul id="btn2" onclick="get_items_2();">CAKES<br /><hr /><img  src="images/cake.jpg"></ul>                           
+                    </div>
+
+                    <div class="tab-title-menu col-lg-3 col-md-3 col-xs-3 col-sm-3">
+                        <ul id="btn3" onclick="get_items_3();">FROZEN SECTION<br /><hr /><img  src="images/frozen.jpg"></ul>
+                    </div>
+
+                    <div class="tab-title-menu col-lg-3 col-md-3 col-xs-3 col-sm-3">
+                        <ul id="btn4" onclick="get_items_4();">SUGAR FREE<br /><hr /><img  src="images/sugar-free.jpg"></ul>
+                    </div>
+                </div>
+	                <!--slider end-->
+          	</div>
+          	<!--tab-menu end-->
+            <div class="menu-item slider slider-single row">
+            	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                    <div class="row items">
+                        <img id="item1" src="images/menu-item-5.jpg" alt="" class="col-lg-4 col-md-4 col-sm-4 col-4 img-fluid">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <h3 id="info1-content1">GULAB JAMUN</h3>
+                            <p id="info1-content2">This is very tasty and delicious gulab jamun.</p>
+                        </div >
+                        <span class="offer-price col-lg-2 col-md-2 col-sm-2 col-2">$8.5</span>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                    <div class="row items">
+                        <img id="item2" src="images/menu-item-6.jpg" alt="" class="col-lg-4 col-md-4 col-sm-4 col-4 img-fluid">
+                        <div class = "col-lg-6 col-md-6 col-sm-6 col-6">
+                            <h3 id="info2-content1">SANDESH</h3>
+                            <p id="info2-content2">This is very tasty and delicious sandesh.</p>
+                        </div>
+                        <span class="offer-price col-lg-2 col-md-2 col-sm-2 col-2">$8.5</span>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                    <div class="row items">
+                        <img id="item3" src="images/menu-item-7.jpg" alt="" class="col-lg-4 col-md-4 col-sm-4 col-4 img-fluid">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <h3 id="info3-content1">RASGULLA</h3>
+                            <p id="info3-content2">This is very tasty and delicious rasgulla</p>
+                        </div>
+                        <span class="offer-price col-lg-2 col-md-2 col-sm-2 col-2">$8.5</span>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                    <div class="row items">
+                        <img id="item4" src="images/menu-item-8.jpg" alt="" class="col-lg-4 col-md-4 col-sm-4 col-4 img-fluid">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <h3 id="info4-content1">DAULAT KI CHAAT</h3>
+                            <p id="info4-content2">This is very tasty and delicious daulat ki chaat.</p>
+                        </div>
+                        <span class="offer-price col-lg-2 col-md-2 col-sm-2 col-2">$8.5</span>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--slider end-->
+            <div id="testing3"></div>
+		</div>
+		<!--container-fluid end-->
+	</div>
+	<!--menu end-->
+
+	<div id="team" class="full-screen-mode parallax">
+		<div class="container-fluid">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+				<div class="title">
+					<h3>Our Team</h3>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+				</div>
+				<!--title end-->
+			</div>
+			<!--column end-->
+			<div class="members row">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+					<div id="mem1">
+						<img src="images/staff-01.jpg" alt="Photo of Jeffery Hoyttsman" class="img-fluid">
+						<h3>Jeffery Hoyttsman</h3>
+						<p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+						<hr />
+                        <ul class="team-social row">
+                        	<ul><a href="#"><i class="fa fa-facebook" aria-hidden="true" class="col-lg-4 col-md-4 col-sm-4 col-4"></i></a></ul>
+                        	<ul><a href="#"><i class="fa fa-twitter" aria-hidden="true" class="col-lg-4 col-md-4 col-sm-4 col-4"></i></a></ul>
+                        	<ul><a href="#"><i class="fa fa-linkedin" aria-hidden="true" class="col-lg-4 col-md-4 col-sm-4 col-4"></i></a></ul>
+                    	</ul>
+					</div>
+					<!--mem1 end-->
+				</div>
+				<!--column end-->
+
+				<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+					<div id="mem2">
+						<img src="images/staff-02.jpg" alt="Photo of John Doe" class="img-fluid">
+						<h3>John Doe</h3>
+						<p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+						<hr />
+                        <ul class="team-social row">
+                        	<ul><a href="#"><i class="fa fa-facebook" aria-hidden="true" class="col-lg-4 col-md-4 col-sm-4 col-4"></i></a></ul>
+                        	<ul><a href="#"><i class="fa fa-twitter" aria-hidden="true" class="col-lg-4 col-md-4 col-sm-4 col-4"></i></a></ul>
+                        	<ul><a href="#"><i class="fa fa-linkedin" aria-hidden="true" class="col-lg-4 col-md-4 col-sm-4 col-4"></i></a></ul>
+                    	</ul>
+					</div>
+					<!--mem2 end-->
+				</div>
+				<!--column end-->
+
+				<div class="col-lg-4 col-md-6 col-sm-12 col-12">
+					<div id="mem3">
+						<img src="images/staff-03.jpg" alt="Photo of Amy Santiago" class="img-fluid">
+						<h3>Amy Santiago</h3>
+						<p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+						<hr />
+                        <ul class="team-social row">
+                        	<ul><a href="#"><i class="fa fa-facebook" aria-hidden="true" class="col-lg-4 col-md-4 col-sm-4 col-4"></i></a></ul>
+                        	<ul><a href="#"><i class="fa fa-twitter" aria-hidden="true" class="col-lg-4 col-md-4 col-sm-4 col-4"></i></a></ul>
+                        	<ul><a href="#"><i class="fa fa-linkedin" aria-hidden="true" class="col-lg-4 col-md-4 col-sm-4 col-4"></i></a></ul>
+                    	</ul>
+					</div>
+					<!--mem3 end-->
+				</div>
+				<!--column end-->
+			</div>
+			<!--.members end-->
+			<div id="testing4"></div>
+		</div>
+		<!--container-fluid end-->
+	</div>
+	<!--team end-->
+
+	<div id="gallery" class="full-screen-mode parallax">
+		<div class="container-fluid">
+			<div id="gal-title">
+				<h3>Our Gallery</h3>
+			</div>
+			<div class="row"> 
+			  <div class="flex-column">
+			    <img src="images/gallery4.jpg" style="width:100%">
+			    <img src="images/gallery1.jpg" style="width:100%">
+			  </div>
+			  <div class="flex-column">
+			    <img src="images/gallery7.jpg" style="width:100%">
+			    <img id="gal1" src="images/gallery6.jpg" style="width:100%">
+			  </div>  
+			  <div class="flex-column">
+			    <img src="images/gallery5.jpg" style="width:100%">
+			    <img src="images/gallery3.jpg" style="width:100%">
+			  </div>
+			  <div class="flex-column">
+			    <img src="images/gallery8.jpg" style="width:100%">
+			    <img id="gal2" src="images/gallery9.jpg" style="width:100%">
+			  </div>
+			</div>
+			<!--row end-->
+			<div id="testing5"></div>
+		</div>
+		<!--container-fluid end-->
+	</div>
+	<!--gallery end-->
+
+
+	
+	<div id="reservation" class="full-screen-mode parallax">
+		<div class="container-fluid">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+				<div class=reserve_title>
+					<h3>Reservation</h3>
+					<h4>BOOKING FORM</h4>
+					<h6>ALL FIELDS ARE COMPULSARY</h6>
+				</div>
+			</div>
+
+			<form id="contact-form" method="post" class="reservations-box row" name="contactform">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-box">
+                        <input type="text" name="form_name" id="form_name" placeholder="Name" required="required" data-error="Firstname is required." />
+                    </div>
+            	</div>
+            	<!--end col-->
+
+            	<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="form-box">
+                        <input type="email" name="form_name" id="form_email" placeholder="Email ID" required="required" data-error="Email Id is required." />
+                    </div>
+            	</div>
+            	<!--end col-->
+
+            	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-box">
+                        <input type="date" name="form_name" id="form_date" placeholder="Select date" required="required" data-error="Date is required." />
+                    </div>
+              	</div>
+              	<!--end col-->
+
+              	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-box">
+                        <input type="time" name="form_name" id="form_time" placeholder="Select time" required="required" data-error="Time is required." />
+                    </div>
+              	</div>
+              	<!--end col-->
+
+              	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-box">
+                        <select name="no_of_persons" id="no_of_persons" class="selectpicker">
+                            <option selected disabled>No. of persons</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                           	<option>6</option>
+                       	</select>
+                    </div>
+              	</div>
+              	<!--end col-->
+
+              	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="form-box">
+                        <input type="number" name="form_name" id="form_no" placeholder="Mobile Number" required="required" data-error="Mobile number is required." />
+                    </div>
+              	</div>
+
+              	<div class="book-btn">
+                   	<a href="#reservation" class="table-btn hvr-underline-from-center">Book my Table</a>
+                </div>
+
+              	<!--end col-->
+			</form>
+		</div>
+		<!--container fuild end-->
+	</div>
+	<!--reservation end-->
+
+	<footer>
+		<div id="foot" class="container-fluid">
+			<div class="foot_title">Sweet City</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12">
+					<div id="about_us">
+						<h5>About Us</h5>
+						<p> Donec porta ut lacus ac facilisis. Phasellus sit amet sapien eget augue blandit consectetur. Nam aliquam turpis aliquam ipsum vehicula pharetra. </p>
+						<ul class="team-social row">
+                        	<ul><a href="#"><i class="fa fa-facebook" aria-hidden="true" class="col-lg-3 col-md-3 col-sm-3 col-3"></i></a></ul>
+                        	<ul><a href="#"><i class="fa fa-twitter" aria-hidden="true" class="col-lg-3 col-md-3 col-sm-3 col-3"></i></a></ul>
+                        	<ul><a href="#"><i class="fa fa-linkedin" aria-hidden="true" class="col-lg-3 col-md-3 col-sm-3 col-3"></i></a></ul>
+                        	<ul><a href="#"><i class="fa fa-instagram" aria-hidden="true" class="col-lg-3 col-md-3 col-sm-3 col-3"></i></a></ul>
+                    	</ul>
+					</div>
+				</div>
+				<!--about us end-->
+
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12" >
+					<div id="new_menu">
+						<h5>New Menu</h5>
+						<div>Chocolate Triffle</div>
+						<div>Motichoor Ladoo</div>
+						<div>Blueberry Cheesecake</div>
+					</div>
+				</div>
+				<!--new menu end-->
+
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12" >
+					<div id="contact_us">
+						<h5>Contact Us</h5>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i> Shop no: 908, Cannaught Place, Delhi, India</p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i>+91 9568423187</p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i> support@sweetcity.in</p>
+					</div>
+				</div>
+				<!--contact us end-->
+
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12" >
+					<div id="opening">
+						<h5>Opening Hours</h5>
+						<p>Monday-Friday <br/> 10:00 AM - 8:00 PM</p>
+						<p>Saturday-Sunday <br/> 10:00 AM - 11:00 PM</p>
+					</div>
+				</div>
+				<!--opening hours end-->
+			</div>
+			<!--row end-->
+		</div>
+		<!--container-fluid end-->
+
+		<div class="copyright">
+			<div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h6 class="copy-title"> Copyright &copy; 2019 Sweet City is powered by <a href="#" target="_blank"></a> </h6>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+		</div>
+	</footer>
+
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
